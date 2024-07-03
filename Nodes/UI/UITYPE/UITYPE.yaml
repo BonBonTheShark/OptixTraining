@@ -1,0 +1,5 @@
+Name: UITYPE
+Type: FolderType
+Children:
+- File: Component/Component.yaml
+- File: Widget/Widget.yaml

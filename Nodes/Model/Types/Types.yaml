@@ -1,0 +1,5 @@
+Name: Types
+Type: FolderType
+Children:
+- File: Motors/Motors.yaml
+- File: Valves/Valves.yaml

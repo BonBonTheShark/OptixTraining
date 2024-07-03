@@ -1,0 +1,47 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: VarInt_1
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: VarInt_2
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: VarInt_3
+  Type: BaseDataVariableType
+  DataType: Int32
+- File: Types/Types.yaml
+- Name: MotoroneInstance
+  Id: g=f93b66118eba85bbf81f7bb36f602332
+  Type: Motorone
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Fault
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ErroreCode
+    Type: BaseDataVariableType
+    DataType: UInt32
+- Name: MotoroneInstance1
+  Id: g=e8b953c8cc312022944b8dfea60e00d1
+  Type: Motorone
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Fault
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ErroreCode
+    Type: BaseDataVariableType
+    DataType: UInt32

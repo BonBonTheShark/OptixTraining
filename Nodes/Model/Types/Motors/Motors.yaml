@@ -1,0 +1,20 @@
+Name: Motors
+Type: FolderType
+Children:
+- Name: Motorone
+  Id: g=be28305022d08afcaa70fc2dbfc1a0fc
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Fault
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ErroreCode
+    Type: BaseDataVariableType
+    DataType: UInt32
